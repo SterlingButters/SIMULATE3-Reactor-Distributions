@@ -8,6 +8,9 @@ import numpy as np
 import time
 import sys
 
+from plotly.offline import init_notebook_mode
+init_notebook_mode(connected=True)
+
 np.set_printoptions(threshold=np.inf)
 # If file does not work, check that read algorithm works first!
 # Simply change read algorithm if more PRI.STA options provided

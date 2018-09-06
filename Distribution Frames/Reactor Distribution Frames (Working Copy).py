@@ -1,10 +1,10 @@
 import plotly.plotly as py
 import plotly.tools as tls
 import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode
 import scipy.ndimage as ndimage
 import re
 import numpy as np
-from plotly.offline import init_notebook_mode
 import plotly
 import pandas as pd
 import sys
